@@ -42,7 +42,7 @@
   
 <!--mapper bean  -->    
 <bean id="studentMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">  
-    <property name="mapperInterface" value="com.dao.StudentMapper" />  
+    <property name="mapperInterface" value="com.dao.userMapper" />  
     <property name="sqlSessionFactory" ref="sqlSessionFactory" />  
 </bean>
  </beans>

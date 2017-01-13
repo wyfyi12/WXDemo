@@ -1,5 +1,6 @@
-/StudentMapper.xml
+/UserMapper.xml
 /com/
 /mybatis-config.xml
 /mysql.properties
+/oracle.properties
 /springmvc.xml

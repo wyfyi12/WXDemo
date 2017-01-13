@@ -2,9 +2,9 @@
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">  
 <configuration>  
     <typeAliases>  
-        <typeAlias alias="StudentEntity" type="com.entities.StudentEntity"/>  
-    </typeAliases>  
+        <typeAlias alias="userEntity" type="com.entities.userEntity"/> 
+    </typeAliases> 
     <mappers>  
-        <mapper resource="/StudentMapper.xml" />  
-    </mappers>  
+        <mapper resource="/UserMapper.xml" /> 
+    </mappers> 
 </configuration>  
